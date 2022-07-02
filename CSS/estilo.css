@@ -352,7 +352,7 @@ button {
     height: 90vh;
    float: right;
     position: absolute;
-    bottom: -95vh;
+    bottom: -120vh;
     right: 20vh;
 }
 #contenidoss h1{
@@ -387,7 +387,7 @@ footer {
     height: 8vh;
    
     position: absolute;
-    bottom: -100vh;
+    bottom: -130vh;
     display: block;
     padding: 2%;
     justify-content: center;
@@ -414,7 +414,7 @@ footer p{
     width: 40%;
     height: 90vh;
     position: relative;
-    bottom: -15vh;
+    bottom: -35vh;
 }
 #titulo {
     font-size: 4.2rem;
@@ -450,7 +450,6 @@ footer p{
 #contenedorformulario2{
     display: none;
 }
-
 
 
 
