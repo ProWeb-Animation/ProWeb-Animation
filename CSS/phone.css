@@ -74,7 +74,7 @@
 
     .Dos{
         width: 100%;
-        height: 10vh;
+        height: 30vh;
         overflow: hidden;
         display: block;
     }
@@ -86,7 +86,7 @@
         width: 97%;
         height: 1px;
         position: absolute;
-        bottom: 6vh;
+        bottom: -2vh;
         right: 1vh;
         display: block;
     }
@@ -110,8 +110,7 @@
         height: 7vh;
         background-color: #16161a86;
         position: absolute;
-        bottom: -90vh;
-        
+        bottom: -105vh;
         padding: 5%;
         justify-content: center;
         
@@ -120,7 +119,7 @@
         width: 100%;
         height: 1vh;
         position: absolute;
-        bottom: -70vh;
+        bottom: -85vh;
         display: block;
         justify-content: space-around;
     }
