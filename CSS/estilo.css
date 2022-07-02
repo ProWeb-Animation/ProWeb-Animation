@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 /*Títulos font-family: 'Abel', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
 /*Subtítulos font-family: 'Mina', sans-serif;*/
@@ -55,9 +55,8 @@ header h1{
 
 .Uno{
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     /* background: #16161a96 url("../MEDIA/omar_fondo.png");*/
-    
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -352,7 +351,7 @@ button {
     height: 90vh;
    float: right;
     position: absolute;
-    bottom: -120vh;
+    bottom: -151vh;
     right: 20vh;
 }
 #contenidoss h1{
@@ -385,9 +384,8 @@ button {
 footer {
     width: 100%;
     height: 8vh;
-   
     position: absolute;
-    bottom: -130vh;
+    bottom: -170vh;
     display: block;
     padding: 2%;
     justify-content: center;
@@ -414,7 +412,7 @@ footer p{
     width: 40%;
     height: 90vh;
     position: relative;
-    bottom: -35vh;
+    bottom: -45vh;
 }
 #titulo {
     font-size: 4.2rem;
@@ -450,7 +448,6 @@ footer p{
 #contenedorformulario2{
     display: none;
 }
-
 
 
 
