@@ -14,7 +14,7 @@
     }
     #candy {
         position: relative;
-        bottom: -70vh;
+        bottom: -90vh;
     }
     #contenidoss{
         width: 50%;
@@ -36,8 +36,8 @@
     }
     #contenedor{
         width: 90%;
-        height: 90vh;
-        padding: 10px;
+        height: 120vh;
+        padding: 2px;
         bottom: -80vh;
         margin: auto;
     }
