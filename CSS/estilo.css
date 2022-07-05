@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/*Títulos font-family: 'Abel', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+/*Subtítulos font-family: 'Mina', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100&display=swap');
+/*Subtítulos 2 font-family: 'Roboto Flex', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+/*Texto font-family: 'Bellefair', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200&display=swap');
+/* font-family: 'Arima', cursive; */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{   
+   
+    background: #16161a url("../MEDIA/ciudad.png") !important;
+    
+    /* backdrop-filter: blur(10px) !important; */
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: 0px 97% !important;
+    
+}
+#Titulo{
+    font-family: 'Abel', sans-serif !important;
+}
+#SubTitulo{
+    font-family: 'Mina', sans-serif !important;
+}
+#SubTitulo2{
+    font-family: 'Roboto Flex', sans-serif !important;
+}
+#Texto{
+    font-family: 'Arima', cursive !important;
+}
+
+#uno{
+    background: rgba(255, 255, 255, 0.052);
+    border: solid 2px rgba(255, 255, 255, 0.052);
+    border-radius: 50px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 8px 32px 0px rgba(121, 122, 131, 0.37) ;
+    backdrop-filter: blur(4px);
+}
+.logotipo{
+    width: 5.5rem;
+    height: 5.5rem;
+}
+#nombre{
+    font-family: 'Abel', sans-serif; 
+}
+
+
+.RSiconocs {
+    width: 10;
+    height: 5vh;
+    display: fixed;
+    margin-left: 1px;
+    margin: 10px auto;
+}
+#RSiconocs a {
+    height: 5vh;
+    display: inline-block;
+}
+#RSiconocs img:hover {
+    background-color: #f3f6f3f6;
+    border-radius: 20px;
+    transform: scale(1.5, 1.5);
+    -webkit-transform: scale(1.5, 1.5);
+    -moz-transform: scale(1.5, 1.5);
+    transition: all .22s linear;
+    -webkit-transition: all .22s linear;
+    -moz-transition: all .22s linear;
+}
+#imgen{
+    width: 3rem;
+    height: auto;
+}
+
+.logotipo2{
+    width: 30%;
+    height: auto;
+}
+
+
+
+#contenedorformulario{
+    width: 40%;
+    margin: 0px auto;
+}
+
+
+.containerrr {
+    display: block;
+    height: 1.5em;
+    width: 1.5em;
+    cursor: pointer;
+    position: relative;
+    margin: 0px auto;
+  }
+  
+  .containerrr input {
+    display: block;
+    position: absolute;
+    -moz-transform: scale(0);
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+  }
+  
+  .containerrr input:checked ~ .checkmark {
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    height: 2em;
+    width: .7em;
+    border-color: #32cd32;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-radius: 0;
+    display: flex;
+    position: absolute;
+  }
+  
+  .containerrr .checkmark {
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    border: 2px solid #32cd32;
+    border-radius: 4px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+  }
+
+  
+
+
+
+.input-group {
+    position: absolute;
+   }
+   
+   .input {
+    border: solid 1px #ffffff;
+    border-radius: 1rem;
+    background: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-family: 'Roboto Flex', sans-serif;
+    -webkit-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+    -moz-transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+    transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+   
+   .user-label {
+    position: absolute;
+    left: 15px;
+    color: #ffffff;
+    font-family: 'Roboto Flex', sans-serif;;
+    pointer-events: none;
+    -webkit-transform: translateY(1rem);
+    -moz-transform: translateY(1rem);
+        -ms-transform: translateY(1rem);
+            transform: translateY(1rem);
+    -webkit-transition: 150ms cubic-bezier(0.4,0,0.2,1);
+    -moz-transition: 150ms cubic-bezier(0.4,0,0.2,1);
+    transition: 150ms cubic-bezier(0.4,0,0.2,1);
+   }
+   
+   .input:focus, input:valid {
+    outline: none;
+    border: 1.5px solid #37de5e;
+   }
+   
+   .input:focus ~ label, input:valid ~ label {
+    -moz-transform: translateY(-50%) scale(0.8);
+    -webkit-transform: translateY(-50%) scale(0.8);
+        -ms-transform: translateY(-50%) scale(0.8);
+            transform: translateY(-50%) scale(0.8);
+    background-color: #37de5e;
+    padding: 0 .2em;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto Flex', sans-serif;
+   }
+
+
+
+button {
+    --glow-color: rgb(255, 255, 255); /*Borde y letra */
+    --glow-spread-color: rgba(117, 216, 56, 0.781); /*Luz cerca */
+    --enhanced-glow-color: rgb(255, 255, 255); /*Luz lejos */
+    --btn-color: rgb(45, 179, 91); /*Dentro */
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    -moz-box-shadow: 0 0 1em .25em var(--glow-color);
+    -webkit-box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+            box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin: auto;
+    bottom: 0px;
+    display: block;
+   }
+   
+   button::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    -webkit-filter: blur(2em);
+            filter: blur(2em);
+    opacity: .7;
+    -moz-transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+    -webkit-transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+            transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+   }
+   
+   button:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    -moz-box-shadow: 0 0 1em .25em var(--glow-color);
+    -webkit-box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+            box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+   }
+   
+   button:active {
+    -moz-box-shadow: 0 0 0.6em .25em var(--glow-color);
+    -webkit-box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+            box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+   }
+
+
+#rSresponsive{
+    width: 30%;
+    height: 2.1rem;
+    background: rgba(255, 255, 255, 0.052);
+    border: solid 2px rgba(255, 255, 255, 0.052);
+    border-radius: 50px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 8px 32px 0px rgba(121, 122, 131, 0.37) ;
+    backdrop-filter: blur(4px);
+}
+
+#footer_text {
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 320px) and (max-width:780px){
+
+    #contenedorformulario{
+        width: 100%;
+        
+    }
+    #imgen{
+        width: 2rem;
+        height: auto;
+    }
+    
+}
