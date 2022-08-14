@@ -55,10 +55,6 @@ body{
 }
 
 
-#contenedorformulario{
-    width: 100%;
-    margin: 0px auto;
-}
 #mc_embed_signup{
     font: 1.7rem  'Abel', sans-serif;  
     text-align: left;
@@ -67,17 +63,20 @@ body{
     text-align: center;
     clear: left;
 }
+/*
 #mce-EMAIL, #mce-FNAME  {
     border: solid 1px #ffffff;
     border-radius: 1rem;
     background: none;
 }
+*/
 
+/*
 .button {
-    --glow-color: rgb(255, 255, 255); /*Borde y letra */
-    --glow-spread-color: rgba(117, 216, 56, 0.781); /*Luz cerca */
-    --enhanced-glow-color: rgb(255, 255, 255); /*Luz lejos */
-    --btn-color: rgb(45, 179, 91); /*Dentro */
+    --glow-color: rgb(255, 255, 255); /*Borde y letra
+    --glow-spread-color: rgba(117, 216, 56, 0.781); /*Luz cerca
+    --enhanced-glow-color: rgb(255, 255, 255); /*Luz lejos 
+    --btn-color: rgb(45, 179, 91); /*Dentro 
     border: .25em solid var(--glow-color);
     padding: 1em 3em;
     color: var(--glow-color);
@@ -140,7 +139,7 @@ body{
            0 0 2.5em 2em var(--glow-spread-color),
            inset 0 0 .5em .25em var(--glow-color);
    }
-
+*/
 
 .RSiconocs {
     width: 10;
